@@ -1,14 +1,4 @@
-    ---
-title: Star Wars Fun
----
-
-
-<div class="intro">
- <h1>A long time ago, in a galaxy far,<br> far away....</h1>
-</div>
-
-<section class="logo">
-      <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   width="693.615px" height="419.375px" viewBox="0 0 693.615 419.375" enable-background="new 0 0 693.615 419.375"
   xml:space="preserve">
   <g id="Layer_2">
@@ -96,19 +86,3 @@ title: Star Wars Fun
     </g>
   </g>
 </svg>
-</section>
-
-<!-- Change the text to your liking -->
-<div id="board">
-  <div id="content">
-    <p id="title">Episode I</p>
-    <p id="subtitle">THE SCEP</p>
-    <br>
-    <!-- start slipsum code -->
-    <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
-
-    <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. </p>
-
-    <p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'? </p>
-  </div>
-</div>
