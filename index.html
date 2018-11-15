@@ -8,33 +8,13 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Star Wars Fun</title>
     <link href="stylesheets/application-471138d1.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
+    <script src="javascripts/application-db354853.js"></script>
   </head>
 
   <body>
-    <script>
-const numStars = 100;
-
-// For every star we want to display
-for (let i = 0; i < numStars; i++) {
-  let star = document.createElement("div");
-  star.className = "star";
-  var xy = getRandomPosition();
-  star.style.top = xy[0] + 'px';
-  star.style.left = xy[1] + 'px';
-  document.body.append(star);
-}
-
-// Gets random x, y values based on the size of the container
-function getRandomPosition() {
-  var y = window.innerWidth;
-  var x = window.innerHeight;
-  var randomX = Math.floor(Math.random()*x);
-  var randomY = Math.floor(Math.random()*y);
-  return [randomX,randomY];
-}
-</script>
-
+    <audio preload="auto" autoplay>
+  <source src="../audio/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg">
+</audio>
 
 
 -
@@ -148,6 +128,29 @@ function getRandomPosition() {
     <p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'? </p>
   </div>
 </div>
+
+<script>
+// document.addEventListener("DOMContentLoaded", function(event) {
+//   const numStars = 100;
+//   // For every star we want to display
+//   for (let i = 0; i < numStars; i++) {
+//     let star = document.createElement("div");
+//     star.className = "star";
+//     var xy = getRandomPosition();
+//     star.style.top = xy[0] + 'px';
+//     star.style.left = xy[1] + 'px';
+//     document.body.append(star);
+//   }
+//   // Gets random x, y values based on the size of the container
+//   function getRandomPosition() {
+//     var y = window.innerWidth;
+//     var x = window.innerHeight;
+//     var randomX = Math.floor(Math.random()*x);
+//     var randomY = Math.floor(Math.random()*y);
+//     return [randomX,randomY];
+//   }
+// });
+</script>
 
   </body>
 
